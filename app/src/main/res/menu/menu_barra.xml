@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+<item
+    android:id="@+id/itm_buscar"
+    android:icon="@android:drawable/ic_menu"
+    android:title="Busqueda"
+
+    app:showAsAction="always"/>
+
+
+
+
+    <item
+        android:id="@+id/itm_contactar"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="contactar"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itm_enviar"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="enviar"
+        app:showAsAction="never"/>
+
+
+
+</menu>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity2"
+    android:background="@drawable/fondodos"
+
+    >
+
+
+
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_barra"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="@color/black"
+        android:gra
+        app:popupTheme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350px"
+
+
+
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+            android:text="🅼🅴🅽🆄"
+            android:textColor="@color/rojo_100"
+            android:textAlignment="center"
+            android:translationY="-60px"
+
+            android:layout_marginTop="100px"
+            android:textSize="270px"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300px"
+            android:translationY="200px"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="300px"
+                android:text="Aperitivos   🍔 "
+                android:textSize="60px"
+
+                android:background="@color/amarillo_100"
+                />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300px"
+                android:translationY="200px"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="300px"
+                    android:textSize="60px"
+                    android:text="Plato Principal   🍽️"
+                    android:background="@color/green"
+                    />
+            </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:translationY="200px"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="300px"
+            android:text="Bebidas 🥤"
+            android:textSize="60px"
+            android:background="@color/purple_700"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
